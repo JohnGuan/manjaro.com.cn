@@ -1,4 +1,4 @@
-# manjaro.org
+# manjaro.com.cn
 
 This readme is a work in progress if anything is missing let us know.
 
@@ -9,7 +9,7 @@ This readme is a work in progress if anything is missing let us know.
 ### Installing and running localy 
 
 * Install on Manjaro with `pacman -S hugo, git`
-* clonning repo on local machine `git clone https://gitlab.manjaro.org/webpage/manjaro-homepage`
+* clonning repo on local machine `git clone https://github.com/Manjaro-China/manjaro.com.cn.git`
 * `cd /manjaro-homepage/site`
 * Test run `hugo server -wDEFv --disableFastRender --noHTTPCache`
 * Preview at `http://localhost:1313/`
