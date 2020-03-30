@@ -169,7 +169,7 @@ unsafe= true
 
 [[menu.main]]
     name = "论坛"
-    url = "https://forum.manjaro.org/"
+    url = "https://forum.manjaro.com.cn/"
     pre = "<i class='fas fa-hands-helping'></i></i>"
     weight = 3
     parent = "support"
@@ -371,7 +371,7 @@ unsafe= true
 
 [[menu.footer]]
     identifier = "imprint"
-    name = "版本说明"
+    name = "网站说明"
     pre = ""
     url = "/imprint/"
     weight = 5
