@@ -4,7 +4,7 @@
 			<div class="row">
 				<div class="col-md-6">
 					<h2><img src="/img/logo.svg">{{.Params.title}}</h2>
-					{{ range $index, $element := split .Content "érightside" }}
+					{{ range $index, $element := split .Content "<p>érightside</p>" }}
 						{{if eq $index 0}} 
 							{{ replace $element "<p>" "<p class='col-left'>" | safeHTML }}<!-- This is my precious -->
 						{{end}}
@@ -16,9 +16,9 @@
 					</p>
 				</div>
 				<div class="col-md-6">
-				{{ range $index, $element := split .Content "érightside" }}
+				{{ range $index, $element := split .Content "<p>érightside</p>" }}
 					{{if eq $index 1}} 
-						{{ substr $element 6  | safeHTML }}
+						{{ $element | safeHTML }}
 					{{end}}
 				{{end}}
 				</div>
