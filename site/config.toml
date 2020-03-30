@@ -1,6 +1,6 @@
 theme = "manjaro-homepage"
 baseurl = "/"
-languageCode = "en-us"
+languageCode = "zh-cn"
 title = "Manjaro - enjoy the simplicity"
 googleAnalytics = ""
 disqusShortname = ""
@@ -10,7 +10,7 @@ publishDir = "../docs"
 themesDir = "../.."
 i18nDir = "../i18n/"
 assetDir = "../static/"
-DefaultContentLanguage = "en-us"
+DefaultContentLanguage = "zh-cn"
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -24,7 +24,7 @@ unsafe= true
     background = "/img/header.jpg"
     tint = "green"
     custom_js = []
-    date_format = "Mon, Jan 2, 2006"
+    date_format = "2006年1月2日"
     meta_description = "Free fast and secure Linux based operating system for everyone, suitable replacement to Windows or MacOS with different Desktop Environments"
     meta_keywords = "manjaro linux, based on arch linux, free operating system"
 
@@ -33,52 +33,52 @@ unsafe= true
     arm_devices = ["PineBook Pro", "Raspberry Pi 4", "Rock Pi 4", "Rock Pro 64", "Khadas Vim 1", "Khadas Vim 3"]
 
 [params.download_edition]
-    download_x64_title = "64 bit version"
-    download_x86_title = "32 bit version"
-    download_button = "Download"
-    download_button_minimal = "Download Minimal"
-    download_minimal_description = "Minimal provides a basic desktop environment with no additional software packages pre-installed."
-    download_x64_description = "Only 64 bit is available for modern hardware, if you looking for legacy 32 bit go "
-    download_x86_description = "Download the 32 bit version if you use an older computer or if you are unsure if your computer supports the 64 bit version."
-    download_gpg = "Download GPG signature"
-    download_torrent = "Download Torrent"
+    download_x64_title = "64位版本"
+    download_x86_title = "32位版本"
+    download_button = "下载"
+    download_button_minimal = "下载精简版"
+    download_minimal_description = "精简版提供了一个基本的桌面环境，没有预装其他软件包。"
+    download_x64_description = "只有64位课用于现代的硬件，如果你在寻找传统的32位请到点"
+    download_x86_description = "如果您使用的是较旧的计算机，或者不确定计算机是否支持64位版本，请下载32位版本。"
+    download_gpg = "下载 GPG 签名"
+    download_torrent = "下载 Torrent 种子"
 
 # --- Top Menu
 
 [[menu.main]]
-    name = "News"
+    name = "新闻"
     url = "/news/"
     pre = ""
     weight = 5
 
 [[menu.main]]
-    name = "Shop"
+    name = "商店"
     url = "#"
     pre = ""
     weight = 4
     identifier = "shop"
 
 [[menu.main]]
-    name = "Donate"
+    name = "捐助"
     pre = ""
     url = "/donate/"
     weight = 3 
 
 [[menu.main]]
-    name = "Downloads"
+    name = "下载"
     url = "/download/"
     pre = ""
     weight = 1
 
 [[menu.main]]
-    name = "Features"
+    name = "特性"
     url = "#"
     pre = ""
     weight = 2
     identifier = "features"
 
 [[menu.main]]
-    name = "More"
+    name = "更多"
     url = "#"
     pre = ""
     identifier = "more"
@@ -99,7 +99,7 @@ unsafe= true
     identifier = "packages"
 
 [[menu.main]]
-    name = "Support"
+    name = "支持"
     url = "#"
     pre = ""
     weight = 2
@@ -107,7 +107,7 @@ unsafe= true
     identifier = "support"
 
 [[menu.main]]
-    name = "About"
+    name = "关于"
     url = "#"
     pre = ""
     weight = 4
@@ -115,7 +115,7 @@ unsafe= true
     identifier = "about"
 
 [[menu.main]]
-    name = "Lists"
+    name = "订阅列表"
     url = "#"
     pre = ""
     weight = 2
@@ -128,7 +128,7 @@ unsafe= true
 # --- SubMenu about ---
 
 [[menu.main]]
-    name = "Team"
+    name = "团队"
     url = "/team/"
     pre = "<i class='fa fa-users'></i></i>"
     weight = 1
@@ -144,7 +144,7 @@ unsafe= true
 # --- SubMenu Support ---
 
 [[menu.main]]
-    name = "First Steps"
+    name = "第一步"
     url = "/support/firststeps/"
     pre = "<i class='fas fa-shoe-prints'></i></i>"
     weight = 1
@@ -152,7 +152,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Common Problems"
+    name = "常见问题"
     url = "/support/commonproblems/"
     pre = "<i class='fas fa-ambulance'></i></i>"
     weight = 2
@@ -160,7 +160,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "User Guide"
+    name = "用户指南"
     url = "/support/userguide/"
     pre = "<i class='fas fa-book-open'></i></i>"
     weight = 2
@@ -168,7 +168,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Forum"
+    name = "论坛"
     url = "https://forum.manjaro.org/"
     pre = "<i class='fas fa-hands-helping'></i></i>"
     weight = 3
@@ -189,7 +189,7 @@ unsafe= true
 # --- Submenu Shop ---
 
 [[menu.main]]
-    name = "Merch & Accessories"
+    name = "商品 & 饰品"
     url = "https://shop.spreadshirt.de/manjaro/"
     pre = "<i class='fas fa-tshirt'></i>"
     weight = 1
@@ -197,7 +197,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Manjaro Stickers"
+    name = "Manjaro 贴纸"
     url = "https://linux-aarhus.dk/en/product-category/manjaro-en/stickers-en/"
     pre = "<i class='fas fa-ticket-alt'></i>"
     weight = 2
@@ -205,7 +205,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Hardware - Notebooks & PCs"
+    name = "硬件-笔记本&电脑"
     url = "https://www.ubuntushop.be/index.php/en/opensource-notebooks/manjaro-notebooks.html"
     pre = "<i class='fas fa-desktop'></i>"
     weight = 5
@@ -236,7 +236,7 @@ unsafe= true
 #
 
 [[menu.main]]
-    name = "Mirrors"
+    name = "镜像"
     url = "https://repo.manjaro.org/"
     pre = "<i class='fas fa-globe'></i>"
     weight = 1
@@ -244,7 +244,7 @@ unsafe= true
     identifier = "mirrors"
 
 [[menu.main]]
-    name = "Discover Software"
+    name = "发现软件"
     url = "https://discover.manjaro.org/"
     pre = "<i class='fas fa-compass'></i>"
     weight = 1
@@ -309,7 +309,7 @@ unsafe= true
 # --- submenu Features ---
 
 [[menu.main]]
-    name = "Under your control"
+    name = "在你的掌控之中"
     url = "/features/under-your-control/"
     pre = "<i class='fas fa-thumbs-up'></i></i>"
     weight = 2
@@ -317,7 +317,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Configured with one click"
+    name = "配置只需点一下"
     url = "/features/configured-with-one-click/"
     pre = "<i class='fas fa-cog'></i></i>"
     weight = 3
@@ -325,7 +325,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Useful for everyone"
+    name = "适合所有人使用"
     url = "/features/useful-for-everyone/"
     pre = "<i class='fas fa-users'></i>"
     weight = 4
@@ -333,7 +333,7 @@ unsafe= true
 
 
 [[menu.main]]
-    name = "Fresh & Stable"
+    name = "很新鲜也很稳定"
     url = "/features/fresh-and-stable/"
     pre = "<i class='fas fa-paper-plane'></i>"
     weight = 5
@@ -356,7 +356,7 @@ unsafe= true
 
 [[menu.footer]]
     identifier = "privacy"
-    name = "Privacy Policy"
+    name = "隐私政策"
     pre = ""
     url = "/privacy-policy/"
     weight = 3
@@ -364,14 +364,14 @@ unsafe= true
 
 [[menu.footer]]
     identifier = "terms"
-    name = "Terms of Use"
+    name = "使用条款"
     pre = ""
     url = "/terms-of-use/"
     weight = 4
 
 [[menu.footer]]
     identifier = "imprint"
-    name = "Imprint"
+    name = "版本说明"
     pre = ""
     url = "/imprint/"
     weight = 5
