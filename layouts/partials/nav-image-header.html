@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top navbar-transparent " color-on-scroll="400">
         <div class="container">
             <div class="navbar-translate">
-                </span><a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}" title="Manjaro.org" rel="tooltip" data-placement="bottom" data-toggle="tooltip">
+                </span><a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}" title="Manjaro.com.cn" rel="tooltip" data-placement="bottom" data-toggle="tooltip">
                     manjaro 
                 </a><span class="page-nav">- {{ i18n "slogan" }}</span>
                 {{ if .IsHome }}
@@ -23,7 +23,7 @@
             {{ .Pre }} <span>{{ .Name }}</span>
             <span class="caret"></span>
           </a>
-          <div class="dropdown-menu dropdown-menu-right multi-level {{ if eq .Name "More" }}jumbo-submenu{{end}}" aria-labelledby="navbarDropdownMenuLink">
+          <div class="dropdown-menu dropdown-menu-right multi-level {{ if eq .Identifier "more" }}jumbo-submenu{{end}}" aria-labelledby="navbarDropdownMenuLink">
             {{ range .Children }}
               {{ if .HasChildren }}
               <div class="menu-block">

@@ -10,7 +10,7 @@ This readme is a work in progress if anything is missing let us know.
 
 * Install on Manjaro with `pacman -S hugo, git`
 * clonning repo on local machine `git clone https://github.com/Manjaro-China/manjaro.com.cn.git`
-* `cd /manjaro-homepage/site`
+* `cd /manjaro.com.cn/site`
 * Test run `hugo server -wDEFv --disableFastRender --noHTTPCache`
 * Preview at `http://localhost:1313/`
 

@@ -2,7 +2,7 @@
     <nav class="navbar navbar-expand-lg bg-primary fixed-top">
         <div class="container">
             <div class="navbar-translate">
-                <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}" title="Manjaro.org" rel="tooltip" data-placement="bottom" data-toggle="tooltip" data-toggle="tooltip">
+                <a class="navbar-brand" href="{{ .Site.BaseURL | relURL }}" title="Manjaro.com.cn" rel="tooltip" data-placement="bottom" data-toggle="tooltip" data-toggle="tooltip">
                     manjaro 
                 </a><span class="page-nav">- {{.Title}}</span>
                 <button class="navbar-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,7 +25,7 @@
               {{ .Pre }} <span>{{ .Name }}</span>
               <span class="caret"></span>
             </a>
-            <div class="dropdown-menu dropdown-menu-right multi-level {{ if eq .Name "More" }}jumbo-submenu{{end}}" aria-labelledby="navbarDropdownMenuLink">
+            <div class="dropdown-menu dropdown-menu-right multi-level {{ if eq .Identifier "more" }}jumbo-submenu{{end}}" aria-labelledby="navbarDropdownMenuLink">
               {{ range .Children }}
                 {{ if .HasChildren }}
                 <div class="menu-block">
