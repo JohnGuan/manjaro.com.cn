@@ -8,8 +8,8 @@
     <link rel="preload" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" as="style" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" crossorigin="anonymous">
 
-    <link rel="dns-prefetch" href="https://forum.manjaro.org">
-    <link rel="preconnect" href="https://forum.manjaro.org">
+    <link rel="dns-prefetch" href="https://forum.manjaro.com.cn">
+    <link rel="preconnect" href="https://forum.manjaro.com.cn">
 
     {{ if .IsHome }}
     <link href="{{ .Site.BaseURL }}" rel="canonical">
@@ -84,7 +84,7 @@
   {{ range .Site.Params.custom_css -}}
     <link rel="stylesheet" href="{{ . | absURL }}">
   {{- end }}
-  
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-162120396-1"></script>
   <script>
