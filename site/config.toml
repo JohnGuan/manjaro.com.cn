@@ -1,4 +1,4 @@
-theme = "manjaro-homepage"
+theme = "manjaro.com.cn"
 baseurl = "/"
 languageCode = "zh-cn"
 title = "Manjaro - enjoy the simplicity"
