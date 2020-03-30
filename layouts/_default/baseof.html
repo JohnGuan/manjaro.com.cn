@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="zh-CN">
   {{partial "head" . }}
   <body class="{{if eq .Title "News"}}{{ .Params.class | default "news" }}{{ else }}{{ .Params.class | default "page" }}{{ end }} sidebar-collapse">
     {{ partial "loading-screen" . }} 
